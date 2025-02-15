@@ -17,7 +17,7 @@ export default function Item(props) {
         <div className="right">
           <div className="right-sub-parent">
             <div className="left-img">
-              <img src="/marker.png" alt="marker-goes here" />
+              <img src="/marker.png" alt="marker-goes here" className='marker' />
             </div>
             <div className="right-content">
               <p className="location">Location : {props.country}</p>
