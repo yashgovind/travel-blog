@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import marker from "/marker.png";
 
 // fix our component.--> challenge.
 
@@ -17,7 +18,7 @@ export default function Item(props) {
         <div className="right">
           <div className="right-sub-parent">
             <div className="left-img">
-              <img src="../marker.png" alt="marker-goes here" />
+              <img src={marker} alt="marker-goes here" />
             </div>
             <div className="right-content">
               <p className="location">Location : {props.country}</p>
